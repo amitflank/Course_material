@@ -6,8 +6,9 @@
     <title>Understanding the Head Section</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
 
+<body>
+  
     <aside class="sidebar">
         <button class="dropdown-btn">Main pages
             <i class="fa fa-caret-down"></i>
@@ -17,19 +18,59 @@
             <a href="web_intro.html">Web Development</a>
             <a href="#">Link 3</a>
         </div>
-  
+    
         <a href="#introduction">Introduction</a>
         <a href="#purpose">Purpose</a>
         <a href="#examples">Examples of Head <br>Elements</a>
         <a href="#conclusion">Conclusion</a>
-    
+        
     
     </aside>
     
     <main>
-        <h1 class="page_description">Understanding the Head Section in HTML and Its Meta Data</h1>
+        <h1 class="page_description">URL's and the Head Section</h1>
+        <h2> What is a URL?</h2>
+        <p>A URL (Uniform Resource Locator) is a unique address that points to a specific resource on the internet
+            and provides instructions on how to access it. A URL typically consists of a protocol, domain name, path,
+            and file name, which together form a complete set of directions for locating and retrieving the desired content.</p>
+
+        <p>
+            <span class="protocol">https</span>://
+            <span class="domain">www.example.com</span>
+            <span class="path">/path/to/resource</span>/
+            <span class="filename">index.html</span>
+        </p>
+        <div class="disclaimer">
+            <div class="disclaimer-item">
+                <span class="dot protocol"></span>
+                  Protocol
+            </div>
+            <div class="disclaimer-item">
+                <span class="dot domain"></span>
+                  Domain
+            </div>
+            <div class="disclaimer-item">
+                <span class="dot path"></span>
+                  Path
+            </div>
+            <div class="disclaimer-item">
+                <span class="dot filename"></span>
+                  File name
+            </div>
+        </div>
+
+      
+        <h3>Common Web Protocols</h3>
+        <ul>
+        <li><span class="protocol-name">HTTP:</span> Hypertext Transfer Protocol - standard protocol for accessing and transferring web pages over the internet.</li>
+        <li><span class="protocol-name">HTTPS:</span> Hypertext Transfer Protocol Secure - secure version of HTTP that uses encryption to protect data transmitted between the web browser and web server.</li>
+        <li><span class="protocol-name">FTP:</span> File Transfer Protocol - used for transferring files between a client and a server over the internet.</li>
+        <li><span class="protocol-name">Mailto:</span> URI scheme for creating hyperlinks that automatically open the user's email client with a pre-populated email address.</li>
+        <li><span class="protocol-name">File:</span> URI scheme for accessing files on the local file system.</li>
+        </ul>
+
         <section id="introduction">
-            <h2>Introduction</h2>
+            <h2>Head</h2>
             <p>The head section of an HTML document plays a crucial role in providing meta information about the website. This meta information is not visible on the webpage itself, but it assists search engines, browsers, and other technologies in processing and understanding the content of the page. In this write-up, we will explore the purpose of the head section and its various elements.</p>
         </section>
 
@@ -83,5 +124,6 @@
         </section>
     </main>
     <script src="dropdown.js"></script>
+    <script src="navbar.js"></script>
 </body>
 </html>
