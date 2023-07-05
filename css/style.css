@@ -10,6 +10,8 @@ body {
 
 /* The side navigation menu */
 .sidebar {
+    width: 20%;
+    float: left; 
     margin: 0;
     padding: 0;
     width: 200px;

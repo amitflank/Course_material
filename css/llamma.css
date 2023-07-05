@@ -1,0 +1,41 @@
+
+body{
+    background-color: #f1f1f1;
+}
+.home{
+  width: 83%; /* adjust according to your needs */
+  float: right;
+  margin-top:30px;
+}
+
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.image-item {
+  flex: 0 0 calc(50% - 20px);
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+.image-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.sidebar{
+  width: 17%; /* adjust according to your needs */
+  float: left;
+  background-color: #f2f2f2;
+}
+
+@media (max-width: 1100px) {
+  .image-item {
+    flex: 0 0 100%;
+    justify-content: center;
+    text-align: center;
+  }
+  }
+  
