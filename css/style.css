@@ -146,3 +146,15 @@ pre {
 code {
     font-family: monospace;
 }
+
+.pretty_link {
+  transition: color 0.3s ease;
+  color: rgb(86, 15, 15);
+  text-decoration: none;
+  text-shadow: .5px black;
+  
+}
+.pretty_link:hover {
+  color: gray;
+  text-shadow: 1px 1px 1px black;
+}
