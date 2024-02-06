@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understanding the Head Section</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  
+
+    <aside class="sidebar">
+        <div id="navbar-container"></div>
+        <div id="prog-container"></div>
+        <div id="web-dev-container"></div>
+
+        <a href="#unit1">Unit 1</a>
+        <a href="#unit2">Unit 2</a>
+        <a href="#unit3">Unit 3</a>        
+    
+    </aside>
+    <main>
+        <h4> Github Setup</h4>
+        <p>We'll mainly use Github to share assignments for the majority of this course. Git is a powerful tool that we'll cover in more depth later. For now, though, we just need to focus on setting up your account to clone a repository.</p>
+        <ol>
+            <li><b>Create a GitHub account</b></li>
+            <ul>
+                <li>
+                    Go to the GitHub website <a class="pretty_link" href="https://github.com">https://github.com/</a> and click on the "Sign up" button in the top right corner of the page
+                </li>
+                <li>Follow the instructions to create your account.</li>
+                <li>Choose a plan - GitHub offers free plans for personal use.</li>
+                <li>Verify your email address by checking your email and clicking on the verification link.</li>
+            </ul>
+            <li><b>Install Git</b></li>
+            <ul>
+                <li>Go to the Git website <a class="pretty_link" href="https://git-scm.com/">https://git-scm.com/</a> and click on the "Download" button.</li>
+                <li>Download the appropriate installer for your operating system.</li>
+                <li>Run the installer and use the default settings to install Git.</li>
+            </ul>
+        
+            <li><b>Create an SSH key</b></li>
+
+            <ul>
+                <li>Open Git Bash (Windows) or Terminal (Mac).</li>
+                <li>Enter the following command, replacing the email with your own</li>
+                    <pre><code>ssh-keygen -t rsa -b 4096 -C "your_email@example.com"</code></pre>
+                <li>When you're prompted to "Enter a file in which to save the key," press Enter. This accepts the default file location.</li>
+                <li>Choose a password to secure your SSH key, and enter it twice when prompted. You won't see the password, but don't worry; it's there.</li>
+            </ul>
+
+            <li><b>Add your SSH key to your GitHub account</b></li>
+            <ul>
+                <li>Go to your GitHub account settings by clicking on your profile picture in the top right corner of the page and then clicking on "Settings."</li>
+                <li>Click on "SSH and GPG keys" in the left sidebar.</li>
+                <li>Click on the "New SSH key" button.</li>
+                <li>Enter a title for your SSH key (e.g. "My Laptop").</li>
+                <li>Open the file that contains your SSH key (typically ~/.ssh/id_rsa.pub on Linux/Mac or C:\Users\username\.ssh\id_rsa.pub on Windows) with a text editor like Notepad and copy all of the text.</li>
+                <li>Paste the contents into the "Key" field on the GitHub website.</li>
+                <li>Click on the "Add SSH key" button to save your SSH key.</li>
+            </ul>
+            
+            <li><b>Clone the Git repository</b></li>
+            
+            <ul>
+                <li>Go to the GitHub page for the repository you want to clone. <a class="pretty_link" href="https://github.com/Hjhawley/TechClass">https://github.com/Hjhawley/TechClass</a></li>
+                <li>Click on the "Clone or download" button on the right side of the page.</li>
+                <li>Click on the "Use SSH" button to copy the SSH URL of the repository to your clipboard.</li>
+                <li>Open a terminal (or command prompt) on your computer.</li>
+                <li>Navigate to the directory (folder) where you want to clone the repository.</li>
+                <li>Enter the following command (replace "username" and "repository"):</li>
+                <pre><code>git clone git@github.com:username/repository.git</code></pre>
+                <li>Once the cloning process is complete, you should see a new directory containing the files from the repository.</li>
+            </ul>
+
+            <li><b>Configure Git</b></li>
+            <ul>
+                <li>Open a terminal or command prompt on your computer and enter the following commands, replacing "Your Name" and "your_email@example.com" with your actual name and email address:</li>
+                <pre><code>git config --global user.name "Your Name"</code></pre>
+                <pre><code>git config --global user.email "your_email@example.com"</code></pre>
+                <li>These settings will be applied to all repositories on your computer.</li>
+                <li>You should now be able to access the cloned repository from your file explorer. You can also add the directory to your workspace within VS Code.</li>
+            </ul>
+        </ol>   
+
+    </main>
+<script src="js/navbar.js"></script>
+<script src="js/programming.js"></script>
+<script src="js/web_dev.js"></script>
+<script src="js/dropdown.js"></script>
+</body>
