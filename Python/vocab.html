@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whats Python?</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  
+    <aside class="sidebar">
+
+        <div id="navbar-container"></div>
+        <div id="prog-container"></div>
+        <div id="web-dev-container"></div>
+
+        <a href="#Concept">Concept Terms</a>
+        <a href="#Common_Keywords">Common Keywords</a>
+        <a href="#Built-ins">Built-ins</a>        
+    
+        
+    </aside>
+
+    <main>
+        <h2 id ="Concept">Python Vocabulary Terms</h2>
+        <dl>
+            <dt>Algorithm</dt>
+            <dd id="Algorithm">A well-defined sequence of steps for solving a particular type of problem.</dd>
+            
+            <dt>Argument</dt>
+            <dd id="Argument">A value provided to a function when it is called.</dd>
+            
+            <dt>Assignment</dt>
+            <dd id="Assignment">The process of assigning a value to a variable or data structure.</dd>
+            
+            <dt>Boolean</dt>
+            <dd id="Boolean">A data type that has one of two possible values, often denoted as true or false.</dd>
+
+            <dt>Boolean Expression</dt>
+            <dd id="Boolean Expression">An expression which results in either “True” or “False”</dd>
+
+            <dt>Bug</dt>
+            <dd id="Bug">An error in a program</dd>
+
+            <dt>Class</dt>
+            <dd id="Class">A blueprint for creating objects in object-oriented programming.It defines a set of attributes (data members) 
+                and methods (functions) that the objects created from it will have. Created by using the keyword “class”.</dd>
+
+            <dt>Comment</dt>
+            <dd id="Comment">Written information in a program that is meant for other programmers (or anyone reading the source code and has no effect on the execution of the program.)
+                 A comment is begun with a hash symbol <pre><code> # like this.</code></pre> They can also be written on multiple lines within triple quotes
+                 <pre><code> ''' like this.'''</code></pre>
+                </dd>
+
+            <dt>Compile</dt>
+            <dd id="Compile">To translate a program written in a high-level language into a low-level language</dd>
+
+            <dt>Concatenate</dt>
+            <dd  id="Concatenate">To join two or more objects together, typically strings
+
+            <pre><code>“Hello_” + “world” == “Hello_world”</code></pre></dd>
+
+            <dt>Constructor</dt>
+            <dd id="Constructor">A special method in a class that is called when an object is created. It initializes the object's attributes. 
+                The constructor method has the same name as the class and is defined using the init() function.</dd>
+
+            <dt>Control Flow</dt>
+            <dd id="Control Flow">Methods of executing code in a specific order based on different conditions or criteria. 
+                Includes branching (conditional statements) and looping.</dd>
+
+            <dt>Data Structure</dt>
+            <dd id="Data Structure">A container that holds data in a particular way, allowing for efficient storage, access, and modification of data.
+                 Examples of data structures include lists, tuples, and dictionaries.</dd>
+
+            <dt>Data Type</dt>
+            <dd id="Data Type">A classification of data based on its nature and intended use</dd>
+
+            <dt>Debug</dt>
+            <dd id="Debug">The process of finding and removing programming errors or bugs.  Debugging often involves using tools like print statements or a 
+                dedicated debugger to identify issues and fix them.</dd>
+
+            <dt>Debugger</dt>
+            <dd id="Debugger">A program or tool (often built into an IDE) that helps identify and resolve errors in a program. 
+                Debuggers allow developers to execute code step-by-step, inspect variables and memory, and track program flow, 
+                making it easier to identify bugs.
+            </dd>
+
+            <dt>Declaration</dt>
+            <dd id="Declaration">A statement that creates a new variable and optionally assigns an initial value to it. In Python, variables can be declared simply by assigning a value to them, without explicitly declaring their type. 
+                For example, x = 5 creates a new variable named x and assigns it the value 5.</dd>
+
+            <dt>Dictionary</dt>
+            <dd id="Dictionary">An ordered and mutable data structure that stores key-value pairs; unique keys mapped to values. Dictionaries are enclosed in curly braces,
+                 key-value pairs are separated by commas, and keys are paired with values with a colon. Example:
+
+            <pre><code>dict1 = {“key1”:5, “key2”:“blue”, “key3”:[list1]}</code></pre>
+            </dd>
+
+            <ul>
+            <dt>Dictionary Key </dt>
+            <dd id="Dictionary Key">An object that appears in a dictionary as the first part of a key-value pair. Must be of an immutable data type, such as strings or numbers. Lists and dictionaries cannot be used as keys, for example. Meanwhile, values can be of any type.
+            </dd></ul>
+
+            <dt>Exception </dt>
+            <dd id="Exception">An event that occurs during the execution of a program that disrupts the normal flow of instructions. 
+            Examples include division by zero and trying to access a non-existent file.</dd>
+
+            <dt>Float</dt> 
+            <dd id="Float">
+                Short for 'floating point number'. A data type representing real fractional numbers (numbers with decimals.)
+            </dd>
+
+            <dt>Function </dt>
+            <dd id="Function">A block of code that performs a specific task and can be called (reused.) 
+                Functions help break code into smaller, more manageable pieces. 
+                They may or may not take one or more arguments and may or may not return a resulting value. 
+                Many functions are built into Python by default. Additional functions are defined by the programmer.
+            
+                <ul>
+                    <dt>Function Header</dt>
+                    <dd id="Function Header">The first line of a function definition, specifying its name and parameters. Created by using "def".</dd>
+
+                    <dt> Parameter</dt>
+                    <dd id="Parameter">A variable declared in the function definition that receives a value (an argument) when the function is called.
+                         Parameters allow different values to be passed in as arguments each time the function is called.</dd>
+
+                    <dt>Function Body</dt>
+                    <dd id="Function Body">The sequence of statements inside a function definition.</dd>
+
+                    <dt>Return Value</dt>
+                    <dd id="Return Value">The value given by a function when it is completed. Created by using “return”.</dd>
+
+                    <dt>Function Call</dt> 
+                    <dd id="Function Call">A statement that executes a function. It consists of the function name followed by an argument list.</dd>
+                </ul>
+            </dd>
+            
+            <dt>High-level Language</dt>
+            <dd id="High-level Language">A programming language that is designed to be easy for humans to read and write. They are typically closer to human language than machine language, and include constructs that abstract away the details of the computer's architecture. Examples include Python, Java, and C#.</dd>
+
+            <dt>IDE</dt>
+            <dd id="IDE">Integrated development environment. An application designed for writing, testing, and debugging code. Consists of a source code editor, build automation (to compile and run tests on the code,) and a debugger. A good IDE provides visual aids such as syntax highlighting and other conveniences.</dd>
+
+            <dt>Index</dt>
+            <dd id="Index">A number used to represent the position of an element in a sequence, such as a string or a list. In Python, indexing starts at 0, so the first element in a sequence has an index of 0, the second has an index of 1, and so on. Negative indexing can also be used, where -1 represents the last element in a sequence, -2 represents the second-to-last element, and so on.</dd>
+
+            <dt>Inheritance</dt>
+            <dd id="Inheritance">A mechanism in object-oriented programming that allows a new class to be based on an existing class. The new “child” class inherits the attributes and methods of the existing “parent” class, and can then be given additional attributes and methods.</dd>
+
+            <dt>Integer</dt>
+            <dd id="Integer">A data type representing non-decimal numbers.</dd>
+
+            <dt>Interpret</dt>
+            <dd id="Interpret">To execute a program in a high-level language by translating it one line at a time.</dd>
+
+            <dt>Iterable</dt>
+            <dd id="Iterable">An object capable of returning its members one at a time, permitting it to be iterated over in a for-loop. Includes lists and dictionaries.</dd>
+            
+            <dt>Iteration</dt>
+            <dd id="Iteration">The process of repeatedly executing a set of statements until a specific condition is met; in other words, the repeated execution of a block of code using either a recursive function call or a loop.</dd>
+
+            <dt>Keywords</dt>
+            <dd id="Keywords">Reserved words that are used by the compiler to parse a program. Cannot be used as variable names or function names.</dd>
+
+            <dt>Looping</dt>
+            <dd id="Looping">Executing a code block repeatedly, either for a set number of iterations or until a certain condition is met. Includes “for” loops and “while” loops.
+
+                <ul>
+                    
+                    <dt>For Loop</dt>
+                    <dd id="For Loop">Used for iterating over a sequence (string, list, dictionary, etc.) Executes the same block of code for every item in that sequence.</dd>
+
+                    <dt>While Loop</dt>
+                    <dd id="While Loop">Used to repeatedly execute a block of code as long as a specified condition (the “while condition”) is true.</dd>
+
+                    <dt>Break Statement</dt>
+                    <dd id="Break Statement">Used to exit a loop prematurely with the “break” keyword.</dd>
+
+                    <dt>Infinite Loop</dt>
+                    <dd id="Infinite Loop">A loop in which the terminating condition is never satisfied.</dd>
+
+                </ul>
+            </dd>
+
+            <dt>List</dt>
+            <dd id="List">A data structure representing a sequence of values, each associated with an index. 
+                Created with square brackets. Examples:
+            
+                <pre><code> list1 = [1999, 2001, 2008, 2014, 2018]</code></pre>
+                <pre><code>list2 = [“red”, “blue”, “gold”, “silver”]</code></pre>
+                <pre><code>list3 = [0, “mushroom”, [list1]]</code></pre>
+            </dd>
+
+            <dt>Low Level Language</dt>
+            <dd id="Low Level Language">A programming language designed to be closer to the binary machine language of the computer. 
+                They provide more direct access to the hardware and are often used for systems programming or other tasks 
+                that require direct manipulation of hardware resources. Examples include assembly language and machine language. 
+                “High level” and “low level” is a relative term, and changes over time; 
+                languages that were once considered high level are now considered low level languages. 
+                C++ is considered a high level language, but it is low level compared to Python, for example.</dd>
+
+            <dt>Method</dt>
+            <dd id="Method">A function that is associated with an object and called using dot notation. 
+                Often used interchangeably with “function.”</dd>
+
+            <dt>Module</dt>
+            <dd id="Module">A file containing Python definitions and statements, intended to be imported and used in other Python programs. 
+                Modules can contain functions, classes, and other definitions, and can be organized into packages to help manage larger programs.
+            
+                <ul>
+                    <dt>Import Statement</dt>
+                    <dd id="Import Statement">A statement used to import a module into a program. 
+                        The module's functions, classes, and other definitions can then be used in the program.</dd>
+
+                    <dt>Module Object</dt>
+                    <dd id="Module Object">A value created by an "import" statement that provides access to the values defined in a module.</dd>
+                </ul>
+            </dd>
+
+            <dt>Mutability</dt>
+            <dd id="Mutability">If the value of an object can be changed, the object is called mutable. 
+                If the value cannot change, the object is called immutable. Lists and dictionaries are mutable. Numbers, strings, and tuples are immutable. When you change the value of a variable assigned to an immutable object, 
+                you are actually creating a new object in memory with the new value, rather than modifying the original object.</dd>
+
+            <dt>Operator</dt>
+            <dd id="Operator">Special symbols that carry out arithmetic and logical computations on values and variables (operands.)
+
+                <ul>
+                    <dt>Arithmetic Operator</dt>
+                    <dd id="Arithmetic Operator">Symbols used to perform mathematical operations. Includes addition, subtraction, multiplication, 
+                        division, modulus, exponentiation, and floor division. (+, -, *, /, %, **, //)
+                    </dd>
+
+                    <dt>Comparison Operator</dt>
+                    <dd id="Comparison Operator">Symbols which compare their operands and return either True or False (includes ==, !=, >, <, >=, and <=). 
+                        Also called “relational operator.”</dd>
+                    
+                    <dt>Logical Operator</dt>
+                    <dd id="Logical Operator">Keywords used on conditional statements and returns either True or False (includes and, or, and not).</dd>
+                        
+                    <dt>Assignment Operator</dt>
+                    <dd id="Assignment Operator">Symbols used to assign values to variables. The simplest is a single equal sign = but also includes incremental operators like += and -=.</dd>
+                
+                </ul>
+            </dd>
+
+            <dt>Parameter</dt>
+            <dd id="Parameter">A name used inside a function to refer to the value passed as an argument. When the function is called, the arguments in the call are substituted for the parameters.</dd>
+            
+            <dt>Print</dt>
+            <dd id="Print">To display a value to the console / terminal / std out.</dd>
+
+            <dt>Program</dt>
+            <dd id="Program">A set of instructions that specifies a computation.</dd>
+
+            <dt>Recursion</dt>  
+            <dd id="Recursion">A programming technique in which a function calls itself to solve a problem. 
+                Recursion is often used to solve problems that can be broken down into smaller, similar subproblems, 
+                such as searching a tree or sorting a list.
+            
+                <ul>
+                    <dt>Base Case</dt>
+                    <dd id="Base Case">The condition in a recursive function that stops the recursion. 
+                        Without a base case, the function will continue to call itself indefinitely, resulting in a stack overflow error.</dd>
+
+                    <dt>Infinite Recursion</dt>
+                    <dd id="Infinite Recursion">A situation in which a recursive function calls itself indefinitely and resulting in a stack overflow error.</dd>
+
+                    <dt>Recursive Case</dt>
+                    <dd id="Recursive Case">The condition in a recursive function that calls the function again, 
+                        with a modified version of the original problem. The recursive case is what allows the function to solve the problem by breaking it down into smaller subproblems.</dd>
+                </ul>
+            </dd>
+
+            <dt>Refactor</dt>
+            <dd id="Refactor">To rewrite a program so that it mostly behaves the same way on the outside, but has been internally improved. 
+                These improvements can include stability, performance, or reduction in complexity.</dd>
+
+            <dt>Regular Expressions</dt>
+            <dd id="Regular Expression">A pattern that describes a set of strings. Used to search and manipulate text.</dd>
+    
+            <dt>Semantics</dt>
+            <dd id="Semantics">The intended meaning of a program.</dd>
+    
+            <dt>Semantic Error</dt>
+            <dd id="Semantic Error">An error in a program where the code runs without any syntax errors, but the output is not what the programmer intended due to incorrect logic or incorrect use of variables.</dd>
+    
+            <dt>Sequence</dt>
+            <dd id="Sequence">An order set; that is, a set of values where each value is identified by an integer index. (Strings and lists are examples of sequences.)</dd>
+    
+            <dt>Item</dt>
+            <dd id="Item">One of the values in a sequence. Also called an element.</dd>
+    
+            <dt>Index</dt>
+            <dd id="Index">An integer value used to select an item in a sequence, such as a character in a string.</dd>
+    
+            <dt>Slice</dt>
+            <dd id="Slice"A part of a sequence specified by a range of indexes.</dd>
+    
+            <dt>Source Code</dt>
+            <dd id="Source Code">The code of a program written in a high-level language.</dd>
+    
+            <dt>String</dt>
+            <dd id="String">A data type representing a sequence of characters.</dd>
+    
+            <dt>Syntax</dt>
+            <dd id="Syntax">The set of rules (the “grammar”) that defines how a Python program will be written and interpreted.</dd>
+    
+            <dt>Syntax Error</dt>
+            <dd id="Syntax Error">An error due to incorrect syntax. Detected while the program is running.</dd>
+    
+            <dt>Terminal</dt>
+            <dd id="Terminal">Where the output of the program is displayed. Also called the console or visual display.</dd>
+    
+            <dt>Tuple</dt>
+            <dd id="Tuple">Ordered and immutable data structure (unlike lists and dictionaries, which are mutable.) Created with parentheses. Example:
+                <pre><code>tuple1 = (3, 4)</code></pre>
+                <pre><code>tuple2 = (0, 0, 4.9, {dict1})</code></pre>
+            </dd>
+            <dt>Type Hinting</dt>
+            <dd id="Type Hinting">A feature introduced in Python 3.5 that allows the programmer to indicate the data types of function arguments, return values, and class attributes. 
+                This is done by adding annotations to the code, which can be used by IDEs and static analysis tools to detect errors and provide hints to the programmer.</dd>
+
+            <dt>Value</dt>
+            <dd id="Value">One of the basic units of data, 
+                like a number or a string, that a program manipulates</dd>
+
+            <dt>Variable</dt>  
+            <dd id="Variable">A name or label (defined by the programmer) that refers to a value
+            
+                <ul>
+                    <dt>Global Variable</dt>
+                    <dd id="Global Variable">A variable defined outside a function. Global variables can be accessed from any function</dd>
+
+                    <dt>Local Variable</dt>
+                    <dd id="Local Variable">A variable defined inside a function. A local variable can only be used inside its function.</dd>
+
+                </ul>
+            </dd>
+            
+            <dt>Version Control</dt>
+            <dd id="Version Control">A system that records changes to a file or set of files over time so that you can recall specific versions later. 
+                It allows you to revert files back to a previous state, revert the entire project back to a previous state, compare changes over time, see who last modified something that might be causing a problem, who introduced an issue and when, and more. 
+                Examples include Git, Mercurial, and Subversion.</dd>
+        </dl>
+
+        <h2 id="Common_Keywords">Commonly Used Keywords</h2>
+        <dl>
+            <dt>and</dt>
+            <dd id="and"> A logical operator that returns True if all statements are true</dd>
+
+            <dt>as</dt> 
+            <dd id="as">Used to create an alias for a module or import statement</dd>
+
+            <dt>assert</dt>
+            <dd id="assert">Used to check if a condition is true. If it isn't, the program will raise an AssertionError. Useful for debugging and testing</dd>
+
+            <dt>break</dt>
+            <dd id="break">Used to exit a loop prematurely</dd>
+
+            <dt>class</dt>
+            <dd id="class">Used to define a new class</dd>
+
+            <dt>continue</dt>
+            <dd id="continue">Used to skip the current iteration of a loop and continue with the next iteration</dd>
+
+            <dt>def</dt>
+            <dd id="def">Used to define a new function</dd>
+
+            <dt>del</dt>
+            <dd id="del">Used to delete an object</dd>
+
+            <dt>elif</dt>
+            <dd id="elif">Short for “else if”. Used to check multiple conditions</dd>
+
+            <dt>else</dt>
+            <dd id="else">Used to execute a block of code if the condition is false</dd>
+
+            <dt>except</dt>
+            <dd id="except">Used to catch exceptions. Comes after try statement</dd>
+
+            <dt>False</dt>
+            <dd id="False">A boolean value that is false</dd>
+
+            <dt>finally</dt>
+            <dd id="finally">Used to execute code, regardless of the result of the try and except blocks</dd>
+
+            <dt>for</dt>
+            <dd id="for">Used to loop through a sequence</dd>
+
+            <dt>from</dt>
+            <dd id="from">Used to import specific parts of a module</dd>
+
+            <dt>global</dt>
+            <dd id="global">Used to declare a global variable</dd>
+
+            <dt>if</dt>
+            <dd id="if">Used to execute a block of code if a condition is true</dd>
+
+            <dt>import</dt>
+            <dd id="import">Used to import a module</dd>
+
+            <dt>in</dt>
+            <dd id="in">Used to check if a value is present in a sequence</dd>
+
+            <dt>is</dt>
+            <dd id="is">Used to test if two variables are the same object</dd>
+
+            <dt>lambda</dt>
+            <dd id="lambda">Used to create an anonymous function</dd>
+
+            <dt>None</dt>
+            <dd id="None">A special value that represents the absence of a value</dd>
+
+            <dt>not</dt>
+            <dd id="not">A logical operator that returns True if the statement is false</dd>
+
+            <dt>or</dt>
+            <dd id="or">A logical operator that returns True if one of the statements is true</dd>
+
+            <dt>pass</dt>
+            <dd id="pass">A null statement. Used when a statement is required syntactically but you do not want any command or code to execute</dd>
+
+            <dt>raise</dt>
+            <dd id="raise">Used to raise an exception</dd>
+
+            <dt>return</dt>
+            <dd id="return">Used to exit a function and return a value</dd>
+
+            <dt>True</dt>
+            <dd id="True">A boolean value that is true</dd>
+
+            <dt>try</dt>
+            <dd id="try">Used to test a block of code for errors</dd>
+
+            <dt>while</dt>
+            <dd id="while">Used to execute a block of code as long as a condition is true</dd>
+
+            <dt>with</dt>
+            <dd id="with">Used to simplify exception handling</dd>
+
+            <dt>yield</dt>
+            <dd id="yield">Used to pause and resume a generator function</dd>
+        </dl>
+
+        <h2 id="Built-ins">Commonly Used Built-in Functions</h2>
+        <dl>
+            <dt>abs()</dt>
+            <dd id="abs()">Returns the absolute value of a number</dd>
+
+            <dt>all()</dt>
+            <dd id="all()">Returns True if all items in an iterable are true</dd>
+
+            <dt>any()</dt>
+            <dd id="any()">Returns True if any item in an iterable is true</dd>
+
+            <dt>enumerate()</dt>
+            <dd id="enumerate()">Returns an enumerate object. It contains the index and value of all the items in the iterable as pairs</dd>
+
+            <dt>float()</dt>
+            <dd id="float()">make a float out of a string or number and return it. If no argument is given, 0.0 is returned.</dd>
+
+            <dt>input()</dt>
+            <dd id="input()">Accepts input from the user and returns it as a string. Takes an optional argument that will be displayed to user</dd>
+        
+            <dt>int()</dt>
+            <dd id="int()">make an integer out of a string or number and return it. If no argument is given, 0 is returned.</dd>
+
+            <dt>isinstance()</dt>
+            <dd id="isinstance()">Returns True if the specified object is of the specified type (including subtypes), otherwise False</dd>
+
+            <dt>len()</dt>
+            <dd id="len()">Returns the length of an an iterable object (number of items in an object)</dd>
+
+            <dt>max()</dt>
+            <dd id="max()">Returns the largest item in an iterable</dd>
+
+            <dt>min()</dt>
+            <dd id="min()">Returns the smallest item in an iterable</dd>
+
+            <dt>open()</dt>
+            <dd id="open()">Opens a file and returns a file object</dd>
+
+            <dt>pow()</dt>
+            <dd id="pow()">Returns the value of x to the power of y</dd>
+
+            <dt>print()</dt>
+            <dd id="print()">Prints the specified message to the screen, or other standard output device</dd>
+
+            <dt>range()</dt>
+            <dd id="range()">Returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and stops before a specified number</dd>
+
+            <dt>reversed()</dt>
+            <dd id="reversed()">Returns a reversed iterator</dd>
+
+            <dt>round()</dt>
+            <dd id="round()">Rounds a number to a specified number of decimal places</dd>
+
+            <dt>slice()</dt>
+            <dd id="slice()">Returns a slice sequence</dd>
+
+            <dt>sorted()</dt>
+            <dd id="sorted()">Returns a sorted list of the specified iterable object</dd>
+
+            <dt>str()</dt>
+            <dd id="str()">Returns a string object of passed input</dd>
+
+            <dt>sum()</dt>
+            <dd id="sum()">Returns the sum of all items in an iterable</dd>
+
+            <dt>type()</dt>
+            <dd id="type()">Returns the type of an argument. Very useful for debugging and testing</dd>
+
+        </dl>
+    </main>
+    <script src="/js/navbar.js"></script>
+    <script src="/js/programming.js"></script>
+    <script src="/js/web_dev.js"></script>
+    <script src="/js/dropdown.js"></script>   
+</body>
+</html>

@@ -111,6 +111,13 @@ body {
   margin-right: 5px;
 }
 
+dt {
+  font-weight: bold;
+}
+dd {
+  margin-bottom: 20px;
+}
+
 .page_description{
     padding-bottom: 20px;
     text-align: center;
@@ -146,6 +153,7 @@ ol li b{
   color: rgb(53, 70, 121);
 }
 
+
 pre {
     background-color: #f4f4f4;
     border: 1px solid #ccc;
@@ -166,4 +174,39 @@ code {
 .pretty_link:hover {
   color: gray;
   text-shadow: 1px 1px 1px black;
+}
+
+.vocab-term {
+  position: relative;
+  cursor: pointer;
+  color: #00BFFF; /* Deep Sky Blue */
+ 
+  border-radius: 4px; /* Optional: Softens the corners for a more subtle effect */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.vocab-term:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+  color: #008080; /* Teal Green */
+}
+
+
+.tooltip {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  visibility: hidden;
+  width: 200px; /* Adjust based on content */
+  height: 100px;
+  background-color: #f9f9f9;
+  color: #000;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+  /* Transition for a smooth effect */
+  opacity: 0;
+  transition: opacity 0.3s, visibility 0.3s;
 }
