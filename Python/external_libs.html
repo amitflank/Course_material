@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understanding the Head Section</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  
+    <aside class="sidebar">
+        <div id="navbar-container"></div>
+        <div id="prog-container"></div>
+        <div id="web-dev-container"></div>
+
+    </aside>
+    <main>
+    <h3 id="dark-blue">Third-Party Libraries</h3>
+
+    <p id="medium-text">Python has a rich ecosystem of third-party libraries and frameworks that extend the functionality of the language and provide additional tools and resources for developers. 
+        These libraries cover a wide range of domains, including web development, data analysis, machine learning, and more. 
+        In this section, we'll explore some of the most popular and widely used third-party libraries in Python and discuss their applications and use cases.</p>
+
+    <p id="medium-text">One of the most commons ways to install and third party library is with a package manager which make the process easy and painless.
+        Heres how we can do it with pip one of the most popular package managers. In your terminal or command prompt, type the following command:
+        <pre><code> pip install &lt;library name&gt;</code></pre></p>
+
+    <h3 id="light-blue">Pytest</h3> 
+    <p id="medium-text">Pytest is a flexible testing framework that is suitable for both simple and complex tests.
+        It provides features like the pytest.mark.parametrize function, which allows testing a function 
+        with multiple input values, eliminating the need for writing repetitive test cases.</p>
+
+    <h3 id="light-blue">Pygame</h3>
+    <p id="medium-text">A collection of Python modules designed for creating and displaying simple video games. 
+    It is built on top of the Simple DirectMedia Layer (SDL) library, which provides low-level multimedia functionality.</p>
+
+    <h3 id="light-blue">NumPy</h3>
+    <p id="medium-text">The fundamental package for numerical computation in Python, offering features for handling arrays, matrices, 
+        and advanced math functions. Its <code>numpy.array()</code> function is used for creating arrays, while 
+        <code>numpy.dot()</code> can be used for matrix multiplication.</p>
+
+    <h3 id="light-blue">SciPy</h3>
+    <p id="medium-text">Focuses on scientific and technical computing and serves as a complement to NumPy. 
+        It offers additional modules for various scientific computations. For example, the <code>scipy.integrate.quad()</code> 
+        function can be used to compute definite integrals.</p>
+
+    <h3 id="light-blue">Matplotlib</h3>
+    <p id="medium-text">A versatile library for creating a wide range of visualizations in Python, 
+        spanning from basic line plots to interactive charts. The <code>matplotlib.pyplot.plot()</code> 
+        function is used for line plots, while <code>matplotlib.pyplot.bar()</code> is employed for bar charts.</p>
+        
+    <h3 id="light-blue">Pandas</h3>
+    <p id="medium-text">A popular library for data manipulation and analysis. It excels at working with numerical tables and time-series data. 
+        Functions like <code>pandas.DataFrame()</code> allow for the creation of data frames, while <code>pandas.read_csv()</code> 
+        is used to read data from CSV files.</p>
+
+    <h3 id="light-blue">Requests</h3>
+    <p id="medium-text">Simplifies HTTP requests by hiding complexities behind a clean API. Functions like <code>requests.get()</code> and <code>
+        requests.post()</code> allow you to send HTTP GET and POST requests respectively.</p>
+
+    <h3 id="light-blue">Flask</h3>
+    <p id="medium-text">A simple, lightweight framework that simplifies the development of web applications. 
+        It provides a straightforward and minimalist approach for creating server-side applications.</p>
+
+    <h3 id="light-blue">Django</h3>
+    <p id="medium-text">A high-level web framework that enables rapid and secure website development. 
+        It follows the model-view-controller (MVC) architectural pattern, providing a comprehensive set of tools and 
+        libraries for building robust web applications.</p>
+
+    <h3 id="light-blue">TensorFlow</h3>
+    <p id="medium-text">Popular for machine learning tasks, particularly for constructing and training deep learning models. 
+        It offers a rich set of tools and resources to facilitate machine learning experimentation and deployment.</p>
+
+    </main>
+    <script src="/js/navbar.js"></script>
+    <script src="/js/programming.js"></script>
+    <script src="/js/web_dev.js"></script>
+    <script src="/js/dropdown.js"></script>
+    <script src ="/js/tooltip.js"></script>   
+</body>
+</html>
