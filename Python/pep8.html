@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understanding the Head Section</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  
+    <aside class="sidebar">
+        <div id="navbar-container"></div>
+        <div id="prog-container"></div>
+        <div id="web-dev-container"></div>
+
+    </aside>
+    <main>
+        <h2 id="dark-blue">PEP-8 Style Guide</h2>
+        <p><strong>Official website:</strong> <a class ="pretty_link" href="https://peps.python.org/pep-0008/">https://peps.python.org/pep-0008/</a></p>
+        <p>It’s essential to understand the importance of writing clean, efficient, and easy-to-understand code. One such standard in the Python community is the PEP-8 style guide. PEP stands for Python Enhancement Proposal, and PEP-8 is a set of guidelines and recommendations that help programmers create code that is easy to read, understand, and share with others. In this paper, we will discuss several of the most common and helpful PEP-8 conventions and provide examples of how adhering to PEP-8 can improve your code's readability and collaboration potential.</p>
+
+        <h3 id="light-blue">The Benefits of Adhering to PEP-8</h3>
+        <ul>
+            <li><strong>Readability:</strong> Consistent formatting and naming conventions make your code easier to read and understand for both yourself and others. This is particularly important when collaborating on projects or sharing your code with the broader Python community.</li>
+            <li><strong>Maintainability:</strong> Following PEP-8 guidelines makes your code more maintainable by making it easier for others (or yourself) to identify bugs and make improvements. Clear and consistent code is easier to refactor and expand upon.</li>
+            <li><strong>Community Acceptance:</strong> As PEP-8 is widely recognized within the Python community, adhering to these guidelines makes it more likely that your code will be understood and accepted by other programmers.</li>
+        </ul>
+
+        <h3 id="light-blue">Common PEP-8 Conventions and Recommendations</h3>
+        <p>Check 3.0-PEP-8-Examples.py for examples of each.</p>
+        <ul>
+            <li><strong>Indentation:</strong> PEP-8 suggests using four spaces per indentation level. This makes your code easier to read because it creates a consistent visual hierarchy.</li>
+            <li><strong>Maximum Line Length:</strong> Limit all lines to a maximum of 79 characters. This improves readability by allowing developers to view code on smaller screens without horizontal scrolling.</li>
+            <li><strong>Naming Conventions:</strong> Use descriptive and concise names for functions, variables, and classes. When strictly following PEP-8 conventions, function names should be written in snake_case while class names should use CamelCase.</li>
+            <li><strong>Imports:</strong> Place imports at the top of the file, and separate them into three categories: standard library imports, related third-party imports, and local application/library-specific imports. This makes it easy for other developers to understand the dependencies of your code.</li>
+            <li><strong>Whitespace:</strong> Use whitespace consistently and effectively to improve readability. Leave two blank lines between top-level functions and class definitions and one blank line between method definitions within a class.</li>
+            <li><strong>Inline Comments:</strong> Although inline comments can be useful, use them sparingly and only when necessary. They should be separated by at least two spaces from the code and start with a # and a single space.</li>
+            <li><strong>Trailing Commas:</strong> When using data structures like lists or dictionaries, include a trailing comma after the last item to make it easier to modify the structure later.</li>
+            <li><strong>String Quotes:</strong> In Python, you can use either single quotes (' ') or double quotes (" ") to define a string. PEP-8 doesn't enforce a specific convention, but it recommends being consistent; choose one style and stick to it.</li>
+            <li><strong>Spaces Around Operators:</strong> Use spaces around operators and after commas to improve readability. However, avoid using spaces immediately inside parentheses or brackets.</li>
+            <li><strong>Identity vs. Equality:</strong> The "is" and "==" operators in Python are used for different purposes:
+                <ul>
+                    <li>The "is" operator checks if two variables refer to the same object in memory (i.e., they have the same identity). It is used when you want to compare object references, rather than their values.</li>
+                    <li>The "==" operator checks if two variables have the same value, regardless of whether they are the same object in memory (i.e., they are equal but not identical). It is used when you want to compare the content of objects. "==" is used for comparing the values of variables or objects, but not for comparing to boolean values or to None.</li>
+                </ul>
+            </li>
+        </ul>
+    </main>
+    <script src="/js/navbar.js"></script>
+    <script src="/js/programming.js"></script>
+    <script src="/js/web_dev.js"></script>
+    <script src="/js/dropdown.js"></script>
+    <script src ="/js/tooltip.js"></script>   
+</body>
+</html>

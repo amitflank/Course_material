@@ -138,6 +138,11 @@ main {
   color: rgb(53, 70, 121);
 }
 
+#dark-blue {
+  color: rgb(37, 98, 133);
+  font-size: 2.5vw;
+}
+
 #light-blue {
   color: rgb(34, 138, 159);
   font-size: 2vw;
