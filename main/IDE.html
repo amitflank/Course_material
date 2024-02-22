@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understanding the Head Section</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <aside class="sidebar">
+        <div id="navbar-container"></div>
+        <div id="prog-container"></div>
+        <div id="web-dev-container"></div>   
+    </aside>
+
+    <main>
+        <h4>What is an IDE?</h4>
+    
+        <p><b>An integrated development environment (IDE)</b> is software that consolidates various programming tools into one package. 
+        IDEs streamline the coding process by combining multiple aspects of writing software: editing source code, building executables, and debugging.</p>
+
+        <p id="ide"><b>An IDE consists of:</b></p>
+        <ul>
+            <li><b>Source code editor</b> - A text editor used for writing software code. Often includes helpful features such as syntax highlighting, language-specific auto-completion, and bug checking.</li>
+            <li><b>Build automation</b> - compiles the source code from a high-level language to a lower level language to create an executable program, and then runs automated tests.</li>
+            <li><b>Debugger</b> - allows programmers to examine different variables and inspect their code when an error occurs.</li>
+        </ul>
+        <br>
+        <p id="ide"><b>Some additional features that a good IDE might offer:</b></p>
+        <ul>
+            <li><strong>Syntax highlighting</strong> - an IDE that knows the syntax of your language can provide helpful visual cues. For example, variables will be highlighted in one color, while function calls will be highlighted in another.</li>
+            <li><strong>Intelligent code completion</strong> - an IDE can anticipate what you’re typing and provide autocomplete suggestions. This saves keystrokes and helps to prevent typos. It can also query the parameters of functions when you call them.</li>
+            <li><strong>Automated refactoring</strong> - assisting in cleaning up code and restructuring it to eliminate bugs and increase stability.</li>
+            <li><strong>Version control</strong> - software (such as Git) for tracking changes in source code, usually used for coordinating work among collaborating programmers.</li>
+          </ul>
+        
+          <p>IDEs save time and minimize headaches. It’s possible to develop programs without one, but their convenience and efficiency make them essential in a professional environment. For this course, we’ll use Microsoft Visual Studio Code. It’s free, open source, and supports a wide range of programming languages and extensions.</p>
+          
+    
+        <h4>Setting up visual studio code (VS code)</h4>
+        <ul>
+            <li><strong>Download and install Visual Studio Code</strong> - Go to <a class = "pretty_link" href="https://code.visualstudio.com/">https://code.visualstudio.com/</a> and download the appropriate version for your operating system. Then, follow the installation instructions.</li>
+            <li><strong>Install the Python extension</strong> - Open VS Code and click on the Extensions icon on the left-hand side of the screen. Search for "Python" and click on the Python extension by Microsoft. Click the "Install" button and wait for the installation to complete.</li>
+            <li><strong>Open a new Python file</strong> - Click on "File" in the top menu bar and select "New File". In this new file, type the following code:
+                <pre><code>print("Hello, world!")</code></pre>
+                Then, save the file as Hello.py
+            </li>
+
+            <li><strong>Configure the Python interpreter</strong> - Click on the gear icon in the bottom left-hand corner of the screen and select "Python". Then, click on the drop-down menu next to "Python: Select Interpreter" and choose the version of Python you have installed on your computer.</li>
+            <li><strong>Run your Python program</strong> - In the VS Code terminal (which should be at the bottom of the screen), type "python" followed by the name of your Python file. It should look like this:
+                <pre><code>python3 Hello.py</code></pre>
+                Press “Enter”. Your program should run in the terminal and output any results. In this simple example, you should see “Hello, world!” in the terminal. Alternatively, hit the F5 key to run and debug whatever program you’re currently working on.</li>
+          </ul>
+    </main>
+
+    <script src="/js/navbar.js"></script>
+    <script src="/js/programming.js"></script>
+    <script src="/js/web_dev.js"></script>
+    <script src="/js/dropdown.js"></script>   
+</body>
+</html>

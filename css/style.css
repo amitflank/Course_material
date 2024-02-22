@@ -134,6 +134,18 @@ main {
     margin-bottom: 50px;
 }
 
+#ide {
+  color: rgb(53, 70, 121);
+}
+
+#light-blue {
+  color: rgb(34, 138, 159);
+  font-size: 2vw;
+}
+
+#medium-text{
+  font-size: 1.5vw;
+}
 
 h2 {
     border-bottom: 1px solid #ccc;
@@ -149,10 +161,49 @@ h4{
   font-size: 25px;
 }
 
+.container,
+.home_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 100vh;
+  padding: 0rem 1rem 1rem;
+  box-sizing: border-box;
+}
+
+.home_container{
+  height: 60vh;
+}
+
+.image-container,
+.text-container {
+  flex: 1 1 150px;
+  max-width: 50%;
+  padding: 1rem;
+
+}
+
+.image-container{
+  text-align: center;
+}
+.text-container p {
+  font-family: 'Dongle', sans-serif;
+  font-size: 1.5vw;
+  line-height: 1.5;
+}
+
+img {
+  width: 80%;
+  height: 80%;
+  max-width: 350px;
+  max-height: 350px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
 ol li b{
   color: rgb(53, 70, 121);
 }
-
 
 pre {
     background-color: #f4f4f4;
@@ -198,6 +249,7 @@ code {
   left: 50%;
   transform: translateX(-50%);
   visibility: hidden;
+  font-size: 12px;
   width: 200px; /* Adjust based on content */
   height: 100px;
   background-color: #f9f9f9;

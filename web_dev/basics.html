@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Basics</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  
+
+    <aside class="sidebar">
+        <div id="navbar-container"></div>
+        <div id="prog-container"></div>
+        <div id="web-dev-container"></div>  
+    </aside>
+
+    <main>
+    <h1>HTML Intro </h1>
+
+    <p>Here's the code for a very basic HTML file</p>
+
+    <pre><code> 
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="en"&gt;
+        &lt;head&gt;
+        &Tab;&lt;title&gt; HTML Basics &lt;/title&gt;
+        &lt;/head&gt;
+
+        &lt;body&gt;
+        &Tab;&lt;h1&gt;This is a heading&lt;/h1&gt;
+        &Tab;&lt;p&gt;This is a paragraph&lt;/p&gt;
+        &lt;/body&gt;
+        &lt;/html&gt; 
+        </pre></code>
+
+        <p>Here's a breakdown of the code:</p>
+        <ul>
+            <li><code>&lt;!DOCTYPE html&gt;</code> - This is the document type declaration. It tells the browser that the document is an HTML5 document.</li>
+            <li><code>&lt;html lang="en"&gt;</code> - This is the root element of the HTML document. The <code>lang</code> attribute specifies the language of the document.</li>
+            <li><code>&lt;head&gt;</code> - This element contains meta-information about the document, such as the title of the document, links to stylesheets, and other metadata.</li>
+            <li><code>&lt;title&gt;</code> - This element sets the title of the document, which is displayed in the browser's title bar or tab.</li>
+            <li><code>&lt;body&gt;</code> - This element contains the content of the document, such as headings, paragraphs, images, and other elements that are visible to the user.</li>
+            <li><code>&lt;h1&gt;</code> - This is a heading element. Headings are used to define the structure of the document and provide a hierarchy of information. We have h1-h6 as heading options with h1 being the largest and h6 the smallest</li>
+            <li><code>&lt;p&gt;</code> - This is a paragraph element. Paragraphs are used to group together related content and provide structure to the document.</li>
+            <li><code>&lt;b&gt;</code> - This is a bold element. It makes any text inside it bold</li>
+
+        </ul>
+
+        <p>Here's how it would look on a webpage: </p>
+
+        <h1>This is a h1 heading</h1>
+        <h3>This is a h3 heading</h3>
+        <h6>This is a h6 heading</h6>
+
+        <p>This is a paragraph</p>
+
+        <p>We can also nest elements inside each other!</p>
+
+        <p>This is a paragraph with some <b> bold text</b> nested in it.</p>
+
+        <p>If you want to examine the code that makes a web page tick you can right click on any part of the webpage and select inspect element in most modern web browsers.
+            Try it with some of the elements on this page. You can see the code that makes the page look the way it does.</p>
+
+        <p>The remaining elements are not directly visible but provide structure or meta data for the webpage. 
+            For example if you look at the tab you have this page open on you will see it's titled HTML
+            basics as I added that text to the tittle element. If you select inspect element again and scroll to the top you will see it defined in the title element in my head section.</p>
+
+    </main>
+    <script src="/js/navbar.js"></script>
+    <script src="/js/programming.js"></script>
+    <script src="/js/web_dev.js"></script>
+    <script src="/js/dropdown.js"></script>   
+</body>
+</html>
