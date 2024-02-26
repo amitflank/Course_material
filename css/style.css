@@ -1,6 +1,8 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
+    font-size: large;
+    text-align: justify;
     margin: 0;
     padding: 0;
     color: #333;
@@ -25,7 +27,8 @@ body {
 
 /* Links on mouse-over */
 .sidebar a:hover:not(.active) {
-    background-color: #555;
+    background-color: #41BBEC;
+    color: #fff
   }
 
 .sidebar a, .dropdown-btn {
@@ -44,7 +47,8 @@ body {
   
   /* On mouse-over */
 .sidebar a:hover, .dropdown-btn:hover {
-    background-color: #555;
+    background-color: #41BBEC;
+    color: #fff
   }
 
   /* Add an active class to the active dropdown button */
@@ -129,6 +133,7 @@ dd {
 
 main {
     margin-left: 200px;
+    margin-right: 50px;
     padding: 1px 16px;
     height: 1000px;
     margin-bottom: 50px;
