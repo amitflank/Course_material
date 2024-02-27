@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     const navbarContainer = document.querySelector("#web-dev-container");
   
-    fetch("/navbar/web_nav.html")
+    fetch("/navbar/html_css.html")
       .then(response => response.text())
       .then(html => {
         navbarContainer.innerHTML = html;

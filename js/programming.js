@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     const navbarContainer = document.querySelector("#prog-container");
   
-    fetch("/navbar/programming.html")
+    fetch("/navbar/python.html")
       .then(response => response.text())
       .then(html => {
         navbarContainer.innerHTML = html;
