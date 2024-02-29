@@ -164,6 +164,10 @@ h5{
   text-align: left;
 }
 
+.red{
+  color: #FF0000;
+}
+
 .container,
 .home_container {
   display: flex;

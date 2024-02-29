@@ -20,6 +20,7 @@
     "Declaration": "A statement that creates a new variable and optionally assigns an initial value to it. In Python, variables can be declared simply by assigning a value to them, without explicitly declaring their type. For example, x = 5 creates a new variable named x and assigns it the value 5.",
     "Dictionary": "An ordered and mutable data structure that stores key-value pairs; unique keys mapped to values. Dictionaries are enclosed in curly braces, key-value pairs are separated by commas, and keys are paired with values with a colon.",
     "Dictionary Key": "An object that appears in a dictionary as the first part of a key-value pair. Must be of an immutable data type such as strings or numbers. Lists and dictionaries cannot be used as keys, for example. Meanwhile, values can be of any type",
+    "Digital Literacy": "The ability to use information and communication technologies to find, evaluate, create, and communicate information, requiring both cognitive and technical skills.",
     "Exception": "An event that occurs during the execution of a program that disrupts the normal flow of instructions. Examples include division by zero and trying to access a non-existent file",
     "Float":"Short for 'floating point number'. A data type representing real fractional numbers (numbers with decimals.)",
     "Function": "A block of code that performs a specific task and can be called and reused. Created with def keyword. Functions can take arguments and return values.",
