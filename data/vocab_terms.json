@@ -5,6 +5,7 @@
     "Boolean": "A data type that has one of two possible values, often denoted as true or false.",
     "Boolean Expression": "An expression which results in either \u201cTrue\u201d or \u201cFalse\u201d",
     "Bug": "An error in a program",
+    "Carpel Tunnel":"Carpal tunnel syndrome is a common condition that causes numbness, tingling, and pain in the hand and forearm. The condition occurs when one of the major wrist nerves is squeezed or compressed",
     "Class": "A blueprint for creating objects in object-oriented programming. Created by using the keyword \u201cclass\u201d.",
     "Comment": "Written information in a program that is meant for other programmers (or anyone reading the source code and has no effect on the execution of the program.) A comment is begun with a hash symbol # like this. They can also be written on multiple lines within triple quotes ''' like this.'''",
     "Catch": "To handle an exception or error in a program so that it does not cause the program to crash.",

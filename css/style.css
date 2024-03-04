@@ -8,8 +8,6 @@ body {
     color: #333;
 }
 
-
-
 /* The side navigation menu */
 .sidebar {
     width: 17%;
@@ -21,10 +19,8 @@ body {
     position: fixed;
     height: 100%;
     overflow: auto;
-  }
+  }  
   
-
-
 /* Links on mouse-over */
 .sidebar a:hover:not(.active) {
     background-color: #41BBEC;
@@ -164,10 +160,6 @@ h5{
   text-align: left;
 }
 
-.red{
-  color: #FF0000;
-}
-
 .container,
 .home_container {
   display: flex;
@@ -187,14 +179,30 @@ h5{
   flex: 1 1 150px;
   max-width: 50%;
   padding: 1rem;
-
 }
 
 .image-container{
   text-align: center;
 }
+
+.large-header{
+  color: #FF0000;
+  font-size: 2.3vw;
+  line-height: 1.5;
+}
+
+.medium-header{
+  font-size: 1.8vw;
+  line-height: 1.5;
+}
+
 .text-container p {
-  font-family: 'Dongle', sans-serif;
+  font-family: Arial, sans-serif;
+  font-size: 1.5vw;
+  line-height: 1.5;
+}
+
+#medium-scale {
   font-size: 1.5vw;
   line-height: 1.5;
 }
@@ -252,7 +260,6 @@ code {
   opacity: 1;
   color: #008080; /* Teal Green */
 }
-
 
 .tooltip {
   position: absolute;
