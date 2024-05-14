@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Interface</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+  
+    <aside class="sidebar">
+        <div id="navbar-container"></div>
+        <div id="lit-container"></div>
+        <div id="prog-container"></div>
+        <div id="web-dev-container"></div><br>       
+    
+        
+    </aside>
+    <main>
+        <div class = "page_description">
+            <h1 id="Intro" class="large-header">File Management</h1> 
+        </div>
+        <p>When you consider all the files you have on your computer - such as documents, pictures, music, videos, and more - 
+            it can sometimes be overwhelming to try and find what you need. That's why good file management is essential. 
+            Let's go over some basic file management tips and learn how to create, rename, move, copy, and delete files and folders.</p>
+
+        <h4 class="medium-header">File Explorer / Finder</h4>
+
+        <p><strong>File Explorer</strong> (Windows) and <strong>Finder</strong> (macOS) are the default file management programs. 
+            To open them you can click on their respective icons in the Taskbar or Dock, or use the keyboard shortcuts Win + E 
+            on Windows or Command + N on macOS. File Explorer and Finder are divided into sections or panes that display different 
+            information about your files and folders. These include:</p>
+
+        <ul>
+            <li><strong>Navigation Pane / Sidebar:</strong> Located on the left side, this area shows the <strong>hierarchy</strong> of your 
+                computer's storage locations, including local drives, network drives, and connected devices. It also contains shortcuts to 
+                common folders like Documents, Pictures, Music, Videos, and Downloads.</li>
+
+            <li><strong>Main Pane:</strong> This is the main area where you can view and manage your files and folders. 
+                You can switch between different viewing modes, such as icons, lists, or columns. You can also sort items 
+                by name, date, size, or type.</li>
+            
+            <li><strong>Address Bar / Path Bar:</strong> Located at the top, this bar displays the current location in the 
+                file system. You can click on any part of the <strong>address</strong> or <strong>path</strong> to navigate 
+                directly to that location. You can also type or paste a file path directly into the bar and press Enter to navigate there.</li>
+            
+            <li><strong>Search Bar:</strong> Use this feature to search for files and folders within the current directory or 
+                your entire computer. Type your search query and press Enter. You can also use advanced search options and filters 
+                to refine your search results.</li>
+        </ul>
+
+    <h1 class="large-header">Creating Files and Folders</h1> 
+
+    <p>Files and folders can be created on the desktop or within other folders. Open File Explorer or Finder 
+        and navigate to where you want to create the file or folder. To create a new file or folder on Windows, 
+        right-click within the folder or on the desktop, select "New," and then choose the type of file you want to create. 
+        The shortcut Ctrl + Shift + N will also create a new folder. To create a new file on macOS, click on "File" in the 
+        menu bar, and then hover over "New" to see a list of file types. Choose the type of file you want to create. 
+        To create a new folder, use Command + Shift + N.</p>
+
+    <p>It's important to develop a system for organizing them that makes sense for you. This can include using descriptive file names, 
+        grouping related files together, and organizing them in subfolders. For example, within my Pictures folder I have 
+        subfolders for Wallpapers, Screenshots, etc.</p>
+
+    <h1 class="large-header">Renaming Files and Folders</h1>
+
+    <p>To rename a file or folder, left-click on it once and press F2. Alternatively, right-click on the item and select "Rename." 
+        Type in the new name and press Enter. You can also click on the file or folder once to select it, then click again on 
+        the name (not the icon) to make it editable.</p>
+
+    <p>When naming folders and files, it's best to use clear, descriptive names that are easy to understand and remember. 
+        Avoid using special characters, spaces, or long names that might cause issues with different operating systems. 
+        It's also helpful to use a consistent naming convention, such as starting with a date or a project name, to help 
+        keep everything organized.</p>
+
+    <p>If you try to save a file with the same name as another file in the same folder, it will overwrite the original. 
+        You can't have two files with the same name in the same place. To avoid losing important files, make sure to 
+        give each file a unique name or store them in separate folders.</p>
+
+    <h1 class="large-header">Moving and Copying Files and Folders</h1>
+
+    <p>To move a file or folder, simply click and drag it to the desired location. On Windows you can right-click a 
+        file > Show more options > Send to > Desktop (create shortcut). Instead of moving the file, it will create 
+        a <strong>shortcut</strong> to the file on the desktop so that you can access it quickly, but keep it in the folder where it belongs. 
+        On macOS you can do this by right-clicking the file > Make Alias to create an <strong>alias</strong>, which is similar to a Windows shortcut. </p>
+    
+    <p>To copy a file or folder, hold down the Ctrl key (Windows) or the Option key (macOS) while dragging the item to the destination. 
+        You can also right-click the folder and select “Copy,” or use Ctrl + C or Command + C.</p>
+
+    <p>To delete a file or folder, right-click on the item and select "Delete" (Windows) or "Move to Trash" (macOS). 
+        Deleted files and folders will be moved to the Recycle Bin or Trash, where they can be recovered or permanently 
+        deleted. You can use the keyboard shortcuts Ctrl + X or Command + X to cut a file or folder and Ctrl + V or Command + V 
+        to paste it to a new location, just like you would with text.</p>
+
+    <h1>Searching and Sorting</h1>
+
+    <p>To search for a file, use the search bar in File Explorer (Windows) or Finder (macOS). You can refine your search by 
+        using special search operators like AND, OR, and NOT. For example, if you want to find all the files with "report" in the filename, but exclude any files that have "draft" in the filename, you can search for "report NOT draft".</p>
+    </main>
+    
+    <script src="/js/navbar.js"></script>
+    <script src="/js/digital-lit.js"></script>
+    <script src="/js/programming.js"></script>
+    <script src="/js/web_dev.js"></script>
+    <script src="/js/dropdown.js"></script>   
+</body>
+</html>
